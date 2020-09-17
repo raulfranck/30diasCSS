@@ -1,0 +1,50 @@
+.container {
+  width: 1200px;
+
+  align-items: center;
+  display: flex;
+  
+  margin: 0 auto;
+  padding-top: 250px;
+}
+
+.card {
+  margin-left: 50px;
+  position: relative;
+  width: 70px;
+  height: 70px;
+
+  transform: rotate(-30deg) skew(25deg) scale(0.8);
+  background: rgba(0, 0, 0, 0);
+  transition: 0.5s;
+}
+
+.card:hover img:nth-child(4) {
+  transform: translate(60px, -60px);
+}
+
+.card:hover img:nth-child(3) {
+  transform: translate(50px, -50px);
+  opacity: 0.8;
+}
+
+.card:hover img:nth-child(2) {
+  transform: translate(40px, -40px);
+  opacity: 0.6;
+}
+
+.card:hover img:nth-child(1) {
+  transform: translate(30px, -30px);
+  opacity: 0.4;
+}
+
+.dist {
+  margin-left: 20px;
+}
+
+.card img {
+  width: 100%;
+  position: absolute;
+
+  transition: 0.5s;
+}
