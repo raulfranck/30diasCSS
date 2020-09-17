@@ -9,7 +9,7 @@ Me rendi ao desafio CSS em 30 dias criado pela [Milena Carecho](https://github.c
 
 ## <li> Dia 01 - Ícone de mídia social em camadas
 
-<img src="./assets/gif.gif" alt="demo" height="400" width="100%">
+<img src="./assets/gif.gif" alt="demo" height="450" width="80%">
 
 ### O que aprendi com esse desafio ?
 
